@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="progress_layout" type="id" />
+    <item name="search" type="id" />
+    <item name="userlist" type="id" />
+    <item name="fab" type="id" />
+</resources>

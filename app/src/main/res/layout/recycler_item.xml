@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradientbg"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/lavender">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recCard"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+
+        android:background="@drawable/gradientbg"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+
+            android:orientation="vertical"
+            android:weightSum="5.5">
+
+
+            <TextView
+                android:id="@+id/companyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:text="companyname"
+                android:textColor="@color/grey"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="work"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/workdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="work det"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/compensation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="compensation"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contacty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="compensation"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="23dp"
+                android:maxLines="1"
+                android:text="companyname :"
+                android:textColor="@color/purple"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="23dp"
+                android:maxLines="1"
+                android:text="Work :"
+                android:textColor="@color/purple"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="23dp"
+                android:maxLines="1"
+                android:text="Work Details :"
+                android:textColor="@color/purple"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="23dp"
+                android:maxLines="1"
+                android:text="Compensation :"
+                android:textColor="@color/purple"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="23dp"
+                android:maxLines="1"
+                android:text="Contact :"
+                android:textColor="@color/purple"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
